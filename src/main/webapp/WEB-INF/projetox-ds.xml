@@ -4,17 +4,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.jboss.org/ironjacamar/schema http://docs.jboss.org/ironjacamar/schema/datasources_1_0.xsd">
     <!-- The datasource is bound into JNDI at this location. We reference 
-        this in META-INF/persistence.xml
-    <datasource jndi-name="java:jboss/datasources/projetoxDS"
+        this in META-INF/persistence.xml -->
+   <!--  <datasource jndi-name="java:jboss/datasources/projetoxDS"
         pool-name="projetox" enabled="true"
         use-java-context="true">
-        <connection-url>jdbc:mysql://localhost:3307/projetox</connection-url>
-        <driver>com.mysql.jdbc.Driver</driver>
+        <connection-url>jdbc:postgresql://localhost:5432/teste</connection-url>
+        <driver>org.postgresql.Driver</driver>
         <security>
-            <user-name>root</user-name>
-            <password>usbw</password>
+            <user-name>dba</user-name>
+            <password>dba</password>
         </security>
-    </datasource>
-    -->
+    </datasource> -->
+    
 </datasources>
  

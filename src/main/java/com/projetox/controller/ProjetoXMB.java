@@ -1,4 +1,4 @@
-package com.orlandosso.projetox;
+package com.projetox.controller;
 
 
 import java.io.Serializable;
